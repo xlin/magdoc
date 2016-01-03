@@ -1,0 +1,5 @@
+baseimage:
+  image: xlin/baseimage
+  ports:
+    - "80:80"
+    - "443:443"
