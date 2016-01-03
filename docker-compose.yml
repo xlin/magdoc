@@ -1,0 +1,9 @@
+nginx:
+  build: .
+  volumes:
+    - "./ssl:/etc/nginx/ssl:rw"
+    - "./logs:/var/log/nginx:rw"
+  ports:
+    - "80:80"
+    - "443:443"
+  restart: always
