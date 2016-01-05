@@ -4,5 +4,3 @@ FROM mageia:5
 RUN cp /usr/share/zoneinfo/Europe/Moscow /etc/localtime
 
 RUN urpmi --auto-update
-
-EXPOSE 80 443
